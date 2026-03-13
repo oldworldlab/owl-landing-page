@@ -28,6 +28,12 @@ export default async function RootLayout({ children, params }: LayoutProps) {
         className={`${inter.variable} font-sans antialiased`}
         suppressHydrationWarning
       >
+        <a
+          href="#main-content"
+          className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:rounded-md focus:bg-background focus:px-4 focus:py-2 focus:text-foreground focus:shadow-lg"
+        >
+          Skip to content
+        </a>
         <Analytics />
         <ThemeProvider
           attribute="class"
@@ -38,7 +44,9 @@ export default async function RootLayout({ children, params }: LayoutProps) {
           <Preloader />
           <Header dictionary={dictionary} />
           <MobileMenu dictionary={dictionary} />
-          <main className="bg-zinc-100 dark:bg-black">{children}</main>
+          <main id="main-content" className="bg-zinc-100 dark:bg-black">
+            {children}
+          </main>
           <Footer dictionary={dictionary} />
           <Toaster />
         </ThemeProvider>

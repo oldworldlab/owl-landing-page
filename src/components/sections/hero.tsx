@@ -3,10 +3,11 @@
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 import { useState, TouchEvent } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence } from "motion/react";
 import advancedAdditiveSolutions from "../../../public/images/hero/advanced-additive-solutions-hero.webp";
 import robotics from "../../../public/images/hero/robotics-hero.webp";
 import unrealDevelopment from "../../../public/images/hero/unreal-development-hero.webp";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 
@@ -106,63 +107,67 @@ export function Hero({ dictionary, lang }: HeroProps) {
           {services.map((service, index) => (
             <motion.div
               key={index}
-              className="group relative flex-1 cursor-pointer overflow-hidden"
+              className="group relative flex-1 overflow-hidden"
               onHoverStart={() => setHoveredIndex(index)}
               onHoverEnd={() => setHoveredIndex(null)}
-              onClick={() => router.push(`/${lang}/services#${service.id}`)}
             >
-              {/* Background Image */}
-              <div className="absolute inset-0">
-                <Image
-                  src={service.image}
-                  alt={service.title}
-                  fill
-                  className={cn(
-                    "object-cover transition-all duration-500",
-                    hoveredIndex === index && "scale-[1.015]",
-                  )}
-                />
-                {/* Dark Overlay */}
-                <div
-                  className={cn(
-                    "absolute inset-0 bg-black/60 transition-opacity duration-500",
-                    hoveredIndex === index ? "opacity-20" : "opacity-60",
-                  )}
-                />
-              </div>
-
-              {/* Content */}
-              <div className="relative flex h-full items-center justify-center px-4 text-center">
-                <div className="max-w-[300px]">
-                  <motion.h2
-                    className="text-2xl font-bold text-white sm:text-3xl"
-                    animate={{
-                      y: hoveredIndex === index ? -10 : 0,
-                    }}
-                    transition={{ duration: 0.3 }}
-                  >
-                    {service.title}
-                  </motion.h2>
-                  <motion.p
-                    className="mx-auto mt-2 text-sm text-white sm:text-base"
-                    initial={{ opacity: 0, y: 10 }}
-                    animate={{
-                      opacity: hoveredIndex === index ? 1 : 0,
-                      y: hoveredIndex === index ? 0 : 10,
-                    }}
-                    transition={{ duration: 0.3 }}
-                  >
-                    {service.subtitle}
-                  </motion.p>
-                  <motion.div
-                    className="mx-auto mt-4 h-[2px] w-0 bg-white"
-                    animate={{
-                      width: hoveredIndex === index ? "100px" : "0px",
-                    }}
-                    transition={{ duration: 0.3 }}
+              <Link
+                href={`/${lang}/services#${service.id}`}
+                className="block h-full w-full"
+              >
+                {/* Background Image */}
+                <div className="absolute inset-0">
+                  <Image
+                    src={service.image}
+                    alt={service.title}
+                    fill
+                    className={cn(
+                      "object-cover transition-all duration-500",
+                      hoveredIndex === index && "scale-[1.015]",
+                    )}
+                  />
+                  {/* Dark Overlay */}
+                  <div
+                    className={cn(
+                      "absolute inset-0 bg-black/60 transition-opacity duration-500",
+                      hoveredIndex === index ? "opacity-20" : "opacity-60",
+                    )}
                   />
                 </div>
-              </div>
+
+                {/* Content */}
+                <div className="relative flex h-full items-center justify-center px-4 text-center">
+                  <div className="max-w-[300px]">
+                    <motion.h2
+                      className="text-2xl font-bold text-white sm:text-3xl"
+                      animate={{
+                        y: hoveredIndex === index ? -10 : 0,
+                      }}
+                      transition={{ duration: 0.3 }}
+                    >
+                      {service.title}
+                    </motion.h2>
+                    <motion.p
+                      className="mx-auto mt-2 text-sm text-white sm:text-base"
+                      initial={{ opacity: 0, y: 10 }}
+                      animate={{
+                        opacity: hoveredIndex === index ? 1 : 0,
+                        y: hoveredIndex === index ? 0 : 10,
+                      }}
+                      transition={{ duration: 0.3 }}
+                    >
+                      {service.subtitle}
+                    </motion.p>
+                    <motion.div
+                      className="mx-auto mt-4 h-[2px] w-0 bg-white"
+                      animate={{
+                        width: hoveredIndex === index ? "100px" : "0px",
+                      }}
+                      transition={{ duration: 0.3 }}
+                    />
+                  </div>
+                </div>
+              </Link>
             </motion.div>
           ))}
         </div>
@@ -238,6 +243,7 @@ export function Hero({ dictionary, lang }: HeroProps) {
               <button
                 onClick={scrollLeft}
                 disabled={isAnimating}
+                aria-label="Previous slide"
                 className="flex h-10 w-10 items-center justify-center rounded-full bg-white/10 text-white backdrop-blur-sm transition-colors hover:bg-white/20 disabled:opacity-50"
               >
                 <ArrowLeft className="h-4 w-4" />
@@ -245,6 +251,7 @@ export function Hero({ dictionary, lang }: HeroProps) {
               <button
                 onClick={scrollRight}
                 disabled={isAnimating}
+                aria-label="Next slide"
                 className="flex h-10 w-10 items-center justify-center rounded-full bg-white/10 text-white backdrop-blur-sm transition-colors hover:bg-white/20 disabled:opacity-50"
               >
                 <ArrowRight className="h-4 w-4" />

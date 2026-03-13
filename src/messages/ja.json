@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "home": {
+      "title": "Old World Labs — 先進的積層造形、ロボティクス＆Unreal開発",
+      "description": "超精密3Dプリンティング、ロボティクス、Unreal Engineビジュアライゼーションを組み合わせた先進的製造ソリューション。精度と自動化の新基準を確立。"
+    },
+    "about": {
+      "title": "会社概要",
+      "description": "Old World Labsの歴史を発見 — 超精密3Dプリンティングのパイオニアから、AIエージェントのヒューマノイドロボットおよび仮想世界への統合まで。"
+    },
+    "services": {
+      "title": "サービス",
+      "description": "複雑な産業課題に対する先進的積層造形、ロボティクス＆自動化、Unreal Engine開発サービスをご覧ください。"
+    },
+    "contact": {
+      "title": "お問い合わせ",
+      "description": "先進的製造、ロボティクス、デジタルソリューションに関する次のプロジェクトについて、Old World Labsにお問い合わせください。"
+    },
+    "blog": {
+      "title": "ブログ",
+      "description": "Old World Labsの先進的製造、ロボティクス、AIエージェント、Unreal Engine開発に関する最新情報とインサイト。"
+    }
+  },
   "header": {
     "logo": "Old World Labs",
     "nav": {

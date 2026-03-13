@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "home": {
+      "title": "Old World Labs — Solutions Additives Avancées, Robotique & Développement Unreal",
+      "description": "Solutions de fabrication avancée combinant impression 3D ultra-précise, robotique et visualisation Unreal Engine. De nouveaux standards en précision et automatisation."
+    },
+    "about": {
+      "title": "À propos",
+      "description": "Découvrez l'histoire d'Old World Labs — du pionnier de l'impression 3D ultra-précise à l'intégration d'agents IA dans des robots humanoïdes et des mondes virtuels."
+    },
+    "services": {
+      "title": "Services",
+      "description": "Explorez nos services de fabrication additive avancée, robotique et automatisation, et développement Unreal Engine pour des défis industriels complexes."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Contactez Old World Labs pour discuter de votre prochain projet en fabrication avancée, robotique ou solutions numériques."
+    },
+    "blog": {
+      "title": "Blog",
+      "description": "Dernières actualités et mises à jour d'Old World Labs sur la fabrication avancée, la robotique, les agents IA et le développement Unreal Engine."
+    }
+  },
   "header": {
     "logo": "Old World Labs",
     "nav": {

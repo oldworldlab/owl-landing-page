@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "home": {
+      "title": "Old World Labs — 先进增材制造、机器人技术与虚幻引擎开发",
+      "description": "结合超精密3D打印、机器人技术和虚幻引擎可视化的先进制造解决方案。树立精度和自动化的新标准。"
+    },
+    "about": {
+      "title": "关于我们",
+      "description": "了解Old World Labs的故事 — 从超精密3D打印的先驱到将AI代理集成到人形机器人和虚拟世界中。"
+    },
+    "services": {
+      "title": "服务",
+      "description": "探索我们的先进增材制造、机器人与自动化以及虚幻引擎开发服务，应对复杂的工业挑战。"
+    },
+    "contact": {
+      "title": "联系我们",
+      "description": "联系Old World Labs，讨论您在先进制造、机器人技术或数字解决方案方面的下一个项目。"
+    },
+    "blog": {
+      "title": "博客",
+      "description": "Old World Labs关于先进制造、机器人技术、AI代理和虚幻引擎开发的最新见解和动态。"
+    }
+  },
   "header": {
     "logo": "Old World Labs",
     "nav": {
