@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import { ImageSlider } from "@/components/ui/image-slider";
 import microfluidics from "../../../../public/images/about/microfluidics.webp";
 import lab from "../../../../public/images/about/lab.webp";

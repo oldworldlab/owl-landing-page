@@ -1,9 +1,39 @@
+import type { Metadata } from "next";
 import { blogPosts } from "@/data/blogPosts";
-import { getPostData } from "@/lib/blog";
+import { getPostData, getPostMetadata } from "@/lib/blog";
 import { notFound } from "next/navigation";
 import { BlogPostContent } from "@/components/sections/blog/blog-post-content";
 import { BlogShare } from "@/components/sections/blog/blog-share";
 import { getDictionary } from "@/app/[lang]/dictionaries";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ lang: string; year: string; month: string; slug: string }>;
+}): Promise<Metadata> {
+  const { lang, year, month, slug } = await params;
+  const post = blogPosts.find((p) => p.id === slug);
+  if (!post) return {};
+  const metadata = await getPostMetadata(slug, lang);
+  return {
+    title: metadata.title,
+    description: metadata.excerpt,
+    openGraph: {
+      type: "article",
+      publishedTime: post.date,
+      images: post.image ? [{ url: post.image }] : undefined,
+    },
+    alternates: {
+      canonical: `/${lang}/blog/${year}/${month}/${slug}`,
+      languages: Object.fromEntries(
+        post.translations.map((l) => [
+          l,
+          `/${l}/blog/${year}/${month}/${slug}`,
+        ]),
+      ),
+    },
+  };
+}
 
 export default async function BlogPost({
   params,
