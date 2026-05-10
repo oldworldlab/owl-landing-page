@@ -39,14 +39,14 @@ export function Story({ dictionary }: StoryProps) {
   return (
     <div className="container py-24">
       {/* Section Title */}
-      <h2 className="mb-8 text-xl font-semibold sm:text-2xl">
+      <h1 className="mb-8 text-xl font-semibold sm:text-2xl">
         <span className="flex flex-col">
           <span className="text-foreground">{dictionary.story.title.main}</span>
           <span className="text-muted-foreground">
             {dictionary.story.title.sub}
           </span>
         </span>
-      </h2>
+      </h1>
 
       <div className="mx-auto grid grid-cols-1 gap-4 md:grid-cols-3">
         {/* Combined Company & Founder Story */}

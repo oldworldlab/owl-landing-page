@@ -31,7 +31,7 @@ export function BlogOverview({ posts, dictionary, lang }: BlogOverviewProps) {
           </span>
         </h1>
 
-        {/* Latest Post */}
+        {/* Featured post */}
         <div className="relative mt-8 overflow-hidden rounded-3xl bg-background shadow-[2px_4px_12px_rgba(0,0,0,0.08)] dark:shadow-[2px_4px_12px_rgba(0,0,0,0.3)]">
           {posts[0] && (
             <Link

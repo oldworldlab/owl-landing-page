@@ -5,6 +5,7 @@ import { ThemeToggle } from "./actions/theme-toggle";
 import { LanguageSwitcher } from "./actions/language-switcher";
 import { Nav } from "./nav";
 import { Navigation } from "@/types/nav";
+import { CONTACT_EMAIL, contactMailto } from "@/config/site";
 
 interface MobileMenuProps {
   dictionary: {
@@ -43,6 +44,13 @@ export function MobileMenu({ dictionary }: MobileMenuProps) {
             <p className="text-sm text-muted-foreground">
               {dictionary.mobile.getInTouch.description}
             </p>
+            <a
+              href={contactMailto()}
+              className="inline-flex text-sm font-medium text-foreground transition-colors hover:text-violet-500"
+              onClick={close}
+            >
+              {CONTACT_EMAIL}
+            </a>
           </div>
 
           {/* Navigation */}

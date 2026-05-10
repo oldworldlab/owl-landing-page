@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import { blogPosts } from "@/data/blogPosts";
 import { getPostMetadata } from "@/lib/blog";
 import { getDictionary } from "@/app/[lang]/dictionaries";
-import { locales } from "@/middleware";
 import { BlogOverview } from "@/components/sections/blog/blog-overview";
+import { absoluteUrl, localizedLanguages, siteConfig } from "@/config/site";
 
 export async function generateMetadata({
   params,
@@ -15,11 +15,15 @@ export async function generateMetadata({
   return {
     title: dict.meta.blog.title,
     description: dict.meta.blog.description,
+    openGraph: {
+      title: dict.meta.blog.title,
+      description: dict.meta.blog.description,
+      url: absoluteUrl(`/${lang}/blog`),
+      images: [absoluteUrl(siteConfig.openGraphImage)],
+    },
     alternates: {
       canonical: `/${lang}/blog`,
-      languages: Object.fromEntries(
-        locales.map((l) => [l, `/${l}/blog`]),
-      ),
+      languages: localizedLanguages("/blog"),
     },
   };
 }

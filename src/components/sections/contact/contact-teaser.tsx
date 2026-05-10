@@ -1,8 +1,8 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import Link from "next/link";
 import { InView } from "@/components/ui/in-view";
+import { contactMailto } from "@/config/site";
 
 interface ContactTeaserProps {
   dictionary: {
@@ -15,10 +15,9 @@ interface ContactTeaserProps {
       description: string;
     };
   };
-  lang: string;
 }
 
-export function ContactTeaser({ dictionary, lang }: ContactTeaserProps) {
+export function ContactTeaser({ dictionary }: ContactTeaserProps) {
   return (
     <section className="container py-24">
       <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
@@ -37,11 +36,9 @@ export function ContactTeaser({ dictionary, lang }: ContactTeaserProps) {
             {dictionary.teaser.description}
           </p>
           <div className="pt-4">
-            <Link href={`/${lang}/contact`}>
-              <Button variant="outline" showArrow>
-                {dictionary.teaser.cta}
-              </Button>
-            </Link>
+            <Button asChild variant="outline">
+              <a href={contactMailto()}>{dictionary.teaser.cta}</a>
+            </Button>
           </div>
         </InView>
         <div className="hidden md:block" />

@@ -1,23 +1,31 @@
 import type { MetadataRoute } from "next";
 import { blogPosts } from "@/data/blogPosts";
+import { LOCALES, SITE_URL } from "@/config/site";
 
-const locales = ["en", "de", "es", "ru", "ja", "zh", "fr"];
-const BASE_URL = "https://oldworldlabs.com";
+const staticRoutes = [
+  { route: "", priority: 1, changeFrequency: "monthly" },
+  { route: "/services", priority: 0.95, changeFrequency: "monthly" },
+  { route: "/contact", priority: 0.9, changeFrequency: "monthly" },
+  { route: "/about", priority: 0.75, changeFrequency: "yearly" },
+  { route: "/blog", priority: 0.7, changeFrequency: "monthly" },
+] as const;
 
-const staticRoutes = ["", "/about", "/services", "/contact", "/blog"];
+const SITE_LAST_MODIFIED = new Date("2026-05-10");
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = [];
 
   // Static pages for each locale
-  for (const route of staticRoutes) {
-    for (const locale of locales) {
+  for (const { route, priority, changeFrequency } of staticRoutes) {
+    for (const locale of LOCALES) {
       entries.push({
-        url: `${BASE_URL}/${locale}${route}`,
-        lastModified: new Date(),
+        url: `${SITE_URL}/${locale}${route}`,
+        lastModified: SITE_LAST_MODIFIED,
+        changeFrequency,
+        priority,
         alternates: {
           languages: Object.fromEntries(
-            locales.map((l) => [l, `${BASE_URL}/${l}${route}`]),
+            LOCALES.map((l) => [l, `${SITE_URL}/${l}${route}`]),
           ),
         },
       });
@@ -29,13 +37,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     const [year, month] = post.date.split("-");
     for (const locale of post.translations) {
       entries.push({
-        url: `${BASE_URL}/${locale}/blog/${year}/${month}/${post.id}`,
+        url: `${SITE_URL}/${locale}/blog/${year}/${month}/${post.id}`,
         lastModified: new Date(post.date),
+        changeFrequency: "yearly",
+        priority: 0.6,
         alternates: {
           languages: Object.fromEntries(
             post.translations.map((l) => [
               l,
-              `${BASE_URL}/${l}/blog/${year}/${month}/${post.id}`,
+              `${SITE_URL}/${l}/blog/${year}/${month}/${post.id}`,
             ]),
           ),
         },

@@ -10,15 +10,13 @@ interface ContactContentProps {
       sub: string;
     };
     form: {
-      name: string;
-      company: string;
-      email: string;
-      subject: string;
-      message: string;
+      title: string;
+      description: string;
+      emailLabel: string;
+      subjectHint: string;
+      detailsTitle: string;
+      details: string[];
       submit: string;
-      success: string;
-      error: string;
-      sending: string;
     };
     faq: {
       title: string;

@@ -32,7 +32,8 @@ const buttonVariants = cva(
 );
 
 export interface ButtonProps
-  extends React.ButtonHTMLAttributes<HTMLButtonElement>,
+  extends
+    React.ButtonHTMLAttributes<HTMLButtonElement>,
     VariantProps<typeof buttonVariants> {
   asChild?: boolean;
   showArrow?: boolean;
@@ -58,9 +59,13 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
         ref={ref}
         {...props}
       >
-        {children}
-        {showArrow && (
-          <ArrowRight className="ml-2 h-4 w-0 opacity-0 transition-all group-hover:w-4 group-hover:opacity-100" />
+        {showArrow ? (
+          <>
+            {children}
+            <ArrowRight className="ml-2 h-4 w-0 opacity-0 transition-all group-hover:w-4 group-hover:opacity-100" />
+          </>
+        ) : (
+          children
         )}
       </Comp>
     );

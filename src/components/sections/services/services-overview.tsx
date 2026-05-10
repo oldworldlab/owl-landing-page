@@ -65,14 +65,14 @@ export function ServicesOverview({ dictionary }: ServicesOverviewProps) {
             visible: { opacity: 1, filter: "blur(0px)" },
           }}
         >
-          <h2 className="text-xl font-semibold sm:text-2xl">
+          <h1 className="text-xl font-semibold sm:text-2xl">
             <span className="flex flex-col">
               <span className="text-foreground">{dictionary.title.main}</span>
               <span className="text-muted-foreground">
                 {dictionary.title.sub}
               </span>
             </span>
-          </h2>
+          </h1>
           <p className="text-pretty text-base text-muted-foreground">
             {dictionary.description}
           </p>

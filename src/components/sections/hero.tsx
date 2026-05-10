@@ -101,6 +101,9 @@ export function Hero({ dictionary, lang }: HeroProps) {
 
   return (
     <section className="relative min-h-screen pb-24">
+      <h1 className="sr-only">
+        {dictionary.hero.title.main} {dictionary.hero.title.sub}
+      </h1>
       {/* Desktop Version */}
       <div className="container hidden h-[90vh] items-center md:flex">
         <div className="mt-24 h-[75vh] w-full flex-col overflow-hidden rounded-3xl shadow-[2px_4px_12px_rgba(0,0,0,0.08)] dark:shadow-[2px_4px_12px_rgba(0,0,0,0.3)] md:flex md:flex-row">

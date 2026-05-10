@@ -1,27 +1,27 @@
 ---
-title: "OWL на CES 2025: Интеграция агентов в человекоподобных роботов и виртуальные миры"
-excerpt: "Old World Labs представляет технологию 'Agents as a Service', интегрируя ИИ-агентов в человекоподобных роботов и виртуальные среды через нашу революционную систему 'Replicants'."
+title: "OWL at CES 2025: AI Agents for Robotics and Virtual Environments"
+excerpt: "A 2025 archive from Old World Labs showing how AI agents, humanoid robotics, and virtual environments became part of OWL's broader industrial automation work."
 date: "2025-01-01"
 ---
 
-[OWL на CES 2025 - Agents as a Service](https://www.youtube.com/watch?v=ZhVvgT2jy4c)
+[Watch the CES 2025 OWL Presentation](https://www.youtube.com/watch?v=ZhVvgT2jy4c)
 
-Old World Labs (OWL) с гордостью представляет свою революционную технологию "Agents as a Service" на CES 2025, демонстрируя её безупречную интеграцию в человекоподобных роботов и виртуальные среды. Эта передовая инновация позиционирует OWL как лидера на быстро развивающемся рынке робототехники с агентами ИИ, переопределяя потенциал искусственного интеллекта как в физическом, так и в цифровом пространстве.
+Old World Labs (OWL) presented its "Agents as a Service" work at CES 2025, demonstrating how AI agents can operate across humanoid robots and virtual environments. In 2026, that work remains a useful milestone in OWL's broader focus: practical AI automation across hardware, software, robotics, simulations, and advanced manufacturing systems.
 
-## Испытайте будущее робототехники и ИИ на стенде #8777
+## CES 2025 Robotics and AI Demonstration
 
-Последние разработки OWL позволяют ИИ-агентам беспрепятственно управлять человекоподобными роботами, давая им возможность рассуждать, взаимодействовать и адаптироваться к 3D-средам в реальном времени. Эти агенты не ограничиваются только робототехникой, но расширяют свои возможности в виртуальные миры, обеспечивая единое присутствие ИИ в физическом и цифровом пространствах. Посетители стенда #8777 могут напрямую взаимодействовать с этими агентами в человекоподобных роботах, на экранах и в виртуальных платформах — всё это связано революционной системой OWL "Replicants".
+OWL's CES demonstration showed AI agents inhabiting and operating humanoid robots, reasoning through 3D environments, and extending related capabilities into virtual worlds. The same systems thinking applies to industrial automation: software agents need to connect with machines, data, operators, and digital models before they can create durable operational value.
 
-## Познакомьтесь с первой самовоспроизводящейся системой агентов
+## Replicants as an Automation Milestone
 
-Дебютирующая на CES технология Replicants от OWL объединяет ИИ-управляемое мышление с ресурсосберегающей робототехникой, устанавливая новый стандарт для устойчивой и масштабируемой автоматизации. Replicants позволяет человекоподобным роботам функционировать как интеллектуальные, автономные единицы, способные адаптироваться к сложным задачам при безупречном взаимодействии с виртуальными средами.
+OWL's Replicants technology combined AI-driven reasoning with resource-aware robotics. The important lesson is bigger than the demonstration itself: useful AI automation must understand constraints, coordinate across environments, and remain connected to the systems people already use.
 
-> "CES 2025 — это возможность продемонстрировать, как Old World Labs переопределяет ИИ и робототехнику. С Replicants мы представляем самовоспроизводящихся агентов, которые расширяют возможности ИИ за пределы традиционных границ. Интегрируя агентов в человекоподобных роботов и виртуальные миры, мы прокладываем путь к доступным, адаптивным и масштабируемым решениям во всех отраслях", — сказал Ник Ливерман. "Наша миссия — дать людям и организациям возможность использовать интеллектуальные системы, которые могут работать как в реальном мире, так и в виртуальных средах." - Ник Ливерман
+> "CES 2025 is an opportunity to showcase how Old World Labs is redefining AI and robotics. With Replicants, we're introducing self-replicating agents that extend AI capabilities beyond traditional boundaries. By integrating agents into humanoid robots and virtual worlds, we're paving the way for accessible, adaptive, and scalable solutions across industries," said Nick Liverman. "Our mission is to empower people and organizations with intelligent systems that can operate in the real world and virtual environments alike." - Nick Liverman
 
-## Практические демонстрации и семинары
+## What This Means for 2026 Automation
 
-Посетители CES 2025 могут ожидать:
+For teams evaluating automation today, the CES 2025 work points toward practical opportunities:
 
-- Живые демонстрации: Взаимодействие с человекоподобными роботами, работающими на передовых системах агентов OWL
-- Интеграция с виртуальным миром: Исследование того, как агенты OWL функционируют в различных средах
-- Интерактивные семинары: Узнайте, как внедрить технологию OWL в свои проекты
+- Connect robots, machines, sensors, and software workflows through AI agents
+- Use digital twins and 3D environments to model, test, and supervise complex systems
+- Build automation around real constraints, including safety, data access, operators, and deployment timelines

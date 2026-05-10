@@ -1,24 +1,24 @@
 {
   "meta": {
     "home": {
-      "title": "Old World Labs — Advanced Additive Solutions, Robotics & Unreal Development",
-      "description": "Advanced manufacturing solutions combining ultra-precise 3D printing, robotics, and Unreal Engine visualization. Setting new standards in precision and automation."
+      "title": "Old World Labs - AI Automation for Hardware and Software Systems",
+      "description": "Old World Labs builds AI automation for industrial hardware, robotics, software workflows, digital twins, and advanced manufacturing environments."
     },
     "about": {
-      "title": "About",
-      "description": "Discover the story behind Old World Labs — from pioneering ultra-precise 3D printing to integrating AI agents into humanoid robots and virtual worlds."
+      "title": "About Old World Labs",
+      "description": "Learn how Old World Labs evolved from ultra-precise 3D printing into AI automation for real-world hardware, robotics, and software systems."
     },
     "services": {
-      "title": "Services",
-      "description": "Explore our advanced additive manufacturing, robotics & automation, and Unreal Engine development services for complex industrial challenges."
+      "title": "Industrial AI Automation Services",
+      "description": "AI automation, robotics integration, software agents, digital twins, and advanced manufacturing support for complex industrial environments."
     },
     "contact": {
-      "title": "Contact",
-      "description": "Get in touch with Old World Labs to discuss your next project in advanced manufacturing, robotics, or digital solutions."
+      "title": "Contact Old World Labs",
+      "description": "Email info@oldworldlabs.com to discuss AI automation for hardware, software, robotics, simulation, or advanced manufacturing projects."
     },
     "blog": {
-      "title": "Blog",
-      "description": "Latest insights and updates from Old World Labs on advanced manufacturing, robotics, AI agents, and Unreal Engine development."
+      "title": "Automation Insights and Company News",
+      "description": "Featured updates from Old World Labs on industrial AI automation, robotics, agents, simulation, and advanced manufacturing."
     }
   },
   "header": {
@@ -31,41 +31,41 @@
       "contact": "Contact"
     },
     "actions": {
-      "getQuote": "Get Quote"
+      "getQuote": "Email OWL"
     }
   },
   "mobile": {
     "getInTouch": {
-      "title": "Get in Touch",
-      "description": "Let's discuss your next project and bring your ideas to life."
+      "title": "Email Old World Labs",
+      "description": "Send your automation goal, current system, constraints, and timeline to info@oldworldlabs.com."
     }
   },
   "hero": {
     "title": {
-      "main": "Our Services.",
-      "sub": "Precision meets innovation."
+      "main": "AI automation systems.",
+      "sub": "For hardware and software environments."
     },
-    "subtitle": "Advanced manufacturing solutions combining ultra-precise 3D printing, robotics, and Unreal Engine visualization. Setting new standards in precision and automation.",
+    "subtitle": "Old World Labs designs AI automation that connects machines, robotics, software workflows, digital twins, and operators into practical systems.",
     "cta": {
-      "primary": "Explore Solutions",
-      "secondary": "Contact Us"
+      "primary": "Explore Automation",
+      "secondary": "Email OWL"
     },
     "network": {
-      "title": "Intelligent Systems",
-      "subtitle": "Where precision meets digital innovation"
+      "title": "Industrial Intelligence",
+      "subtitle": "AI automation across physical and digital systems"
     },
     "slides": {
       "first": {
-        "title": "Advanced Additive Solutions.",
-        "subtitle": "Ultra-precise at microscale."
+        "title": "Industrial AI Automation.",
+        "subtitle": "Connect machines, data, agents, and operators."
       },
       "second": {
-        "title": "Robotics & Automation.",
-        "subtitle": "Precision meets efficiency."
+        "title": "Robotics and Hardware Integration.",
+        "subtitle": "Bring intelligent control into physical systems."
       },
       "third": {
-        "title": "Unreal Engine Development.",
-        "subtitle": "Visualization redefined."
+        "title": "Software Agents and Digital Twins.",
+        "subtitle": "Automate workflows, simulations, and 3D environments."
       }
     },
     "scroll": "Scroll",
@@ -73,53 +73,53 @@
   },
   "benefits": {
     "title": {
-      "main": "Why Choose Old World Labs.",
-      "sub": "Setting new standards in precision."
+      "main": "Why choose Old World Labs.",
+      "sub": "Real automation across physical and digital systems."
     },
     "items": {
       "innovation": {
-        "title": "Advanced Manufacturing & Technology",
-        "description": "Ultra-precise 3D printing combined with Unreal Engine visualization and robotics. From prototype to production, all in one integrated solution."
+        "title": "Hardware and Software Automation",
+        "description": "We connect AI agents, robotics, industrial equipment, simulations, and software tools into automation that fits the environment you already run."
       },
       "integration": {
-        "title": "Integrated Solutions",
-        "description": "Connecting your automation systems into one efficient workflow. Our methodical approach helps streamline complex processes."
+        "title": "Systems Integration",
+        "description": "From sensors and machines to dashboards and internal workflows, we design the bridges that turn fragmented processes into coordinated systems."
       },
       "precision": {
-        "title": "Reliable Network",
-        "description": "Working with trusted industry partners to deliver solutions on time. Our network ensures consistent quality across projects of any scale."
+        "title": "Prototype to Deployment",
+        "description": "Our background in precision manufacturing, robotics, and simulation helps move ideas from technical concept to working automation."
       }
     }
   },
   "industries": {
     "title": {
-      "main": "Precision solutions.",
-      "sub": "Across diverse sectors."
+      "main": "Automation solutions.",
+      "sub": "Built for complex technical environments."
     },
     "items": {
       "biotech": {
-        "title": "Biotech & Pharmaceuticals",
-        "description": "Ultra-precise microfluidic devices powering next-gen drug discovery and diagnostics."
+        "title": "Biotech and Laboratories",
+        "description": "Automation for lab workflows, microfluidics, data capture, robotics, and research operations."
       },
       "healthcare": {
-        "title": "Healthcare & Medical Devices",
-        "description": "Precision-engineered medical devices advancing modern patient care."
+        "title": "Healthcare and Medical Devices",
+        "description": "AI-assisted systems, prototyping, and controlled workflows for medical-device and healthcare teams."
       },
       "semiconductor": {
         "title": "Semiconductor Manufacturing",
-        "description": "High-precision components for advanced semiconductor manufacturing."
+        "description": "Automation support for precision equipment, process visibility, test workflows, and production tooling."
       },
       "aerospace": {
-        "title": "Aerospace & Defense",
-        "description": "Mission-critical components for aerospace and defense applications."
+        "title": "Aerospace and Defense",
+        "description": "Mission-aware automation, simulation, digital twins, and advanced components for demanding programs."
       },
       "automotive": {
-        "title": "Automotive & Mobility",
-        "description": "Advanced prototyping solutions for automotive innovation."
+        "title": "Automotive and Mobility",
+        "description": "AI-enabled prototyping, robotics, testing workflows, and connected automation for mobility teams."
       },
       "research": {
-        "title": "Research & Development",
-        "description": "Custom solutions pushing research and development boundaries."
+        "title": "Research and Development",
+        "description": "Custom automation, simulation, agent workflows, and experimental platforms for technical teams."
       }
     },
     "cta": {
@@ -131,33 +131,33 @@
     }
   },
   "footer": {
-    "copyright": "© 2025 Old World Labs. All rights reserved."
+    "copyright": "Copyright 2026 Old World Labs. All rights reserved."
   },
   "about": {
     "story": {
       "title": {
-        "main": "Our Story.",
-        "sub": "A decade of innovation."
+        "main": "Old World Labs.",
+        "sub": "From precision manufacturing to AI automation."
       },
-      "quote": "Our mission is to empower people and organizations with intelligent systems that can operate in the real world and virtual environments alike.",
+      "quote": "Our mission is to help organizations automate real hardware and software environments with intelligent systems that can operate where the work actually happens.",
       "early": {
-        "title": "From 3D Printing to AI",
-        "description": "Founded by Nick Liverman in 2012, Old World Labs began as a pioneer in ultra-precise 3D printing. Our journey started with a vision to create 3D printers of uncompromising precision, capable of satisfying the toughest industrial standards.",
+        "title": "Precision Roots",
+        "description": "Founded by Nick Liverman in 2012, Old World Labs began with ultra-precise 3D printing and demanding industrial hardware. That foundation still shapes our automation work today.",
         "founder": {
           "name": "About Nick Liverman",
           "background": "Started making robots at age 12, beginning with computer scripts in online games that automated mining and item creation. This early experience sparked his fascination with converting digital objects into physical products.",
-          "vision": "When consumer 3D printers first emerged, Nick was captivated by the possibility of making 3D design accessible to everyone. After experiencing limitations with early consumer printers, he founded Old World Laboratories with the mission to manufacture printers meeting the most stringent industrial standards.",
-          "link": "https://hartleynbarnes.wordpress.com/about-us/nick-liverman/",
-          "learnMore": "Learn more about Nick Liverman"
+          "vision": "Nick founded Old World Laboratories to build tools that could move between digital design and physical production. That same systems mindset now drives OWL work in AI automation, robotics, and connected software.",
+          "link": "https://www.nickliverman.com",
+          "learnMore": "View Nick Liverman research record"
         }
       },
       "journey": {
-        "title": "Shaping Tomorrow",
-        "description": "Today, Old World Labs leads the charge in integrating intelligent agents into humanoid robots and virtual worlds. Our groundbreaking 'Replicants' technology combines AI-driven reasoning with resource-aware robotics, setting new benchmarks for sustainable and scalable automation. By merging cutting-edge AI with real-world applications, we continue to redefine what's possible in both physical and digital realms."
+        "title": "Automation Across Real Systems",
+        "description": "Old World Labs now focuses on AI and automation across physical and digital environments: robotics, industrial workflows, software agents, simulations, and advanced manufacturing systems."
       },
       "current": {
-        "title": "Integrating Agents into Robotics",
-        "description": "At CES 2025, Old World Labs is showcasing its 'Agents as a Service' technology, integrating AI into humanoid robots and virtual worlds. This innovation redefines AI's role in both physical and digital spaces."
+        "title": "AI for Hardware and Software Environments",
+        "description": "In 2026, OWL helps companies identify what can be automated, integrate the tools and machines involved, and deploy AI systems that support real operations rather than demos alone."
       }
     },
     "timeline": {
@@ -330,6 +330,45 @@
               "title": "Old World Labs Official Website"
             }
           ]
+        },
+        {
+          "year": "2026",
+          "title": "Research Links and Automation Context",
+          "details": [
+            "Added source-backed references for SPIE micro-mirror lithography, OWL nano-scale 3D printing coverage, patents, and applied research.",
+            "Connected Old World Labs precision manufacturing history to current AI automation for hardware and software environments.",
+            "Cross-linked OWL research context with Nick Liverman personal research record."
+          ],
+          "links": [
+            {
+              "url": "https://www.nickliverman.com/blog/3d-micro-mirror-lithography-mass-production",
+              "title": "Nick Liverman Research Page"
+            },
+            {
+              "url": "https://www.proceedings.com/content/046/046756webtoc.pdf",
+              "title": "SPIE Proceedings TOC"
+            },
+            {
+              "url": "https://eurekamag.com/research/105/018/105018197.php",
+              "title": "3D Micro-Mirror Lithography Bibliography"
+            },
+            {
+              "url": "https://3dprintingindustry.com/news/owl-unveils-new-nanoscopic-3d-printers-at-ces-39384/",
+              "title": "3D Printing Industry MC-Series Coverage"
+            },
+            {
+              "url": "https://3dprint.com/35431/owl-mc-1-mc-2-ces-2015/",
+              "title": "3DPrint.com MC-1/MC-2 Coverage"
+            },
+            {
+              "url": "https://www.livescience.com/49466-3d-printers-science-applications.html",
+              "title": "Live Science Research-Grade Printer Coverage"
+            },
+            {
+              "url": "https://patents.justia.com/assignee/old-world-labs",
+              "title": "Justia Old World Labs Patent Records"
+            }
+          ]
         }
       ]
     },
@@ -344,13 +383,13 @@
     },
     "teaser": {
       "learnMore": "Learn more about our journey",
-      "subtitle": "Latest Insights",
+      "subtitle": "Featured Insight",
       "readMore": "Read more"
     }
   },
   "blog": {
     "title": "Blog",
-    "subtitle": "Latest insights and updates",
+    "subtitle": "Featured insights and company updates",
     "readMore": "Read more",
     "article": "Article",
     "share": {
@@ -372,16 +411,16 @@
       }
     },
     "latest": {
-      "title": "OWL at CES 2025",
-      "excerpt": "Old World Labs unveils 'Agents as a Service' technology, seamlessly integrating AI agents into humanoid robots and virtual environments through our groundbreaking 'Replicants' system.",
-      "link": "ces-2025-agents-as-service",
-      "date": "2025-01-01"
+      "title": "SPIE and 3D Printing Research Links",
+      "excerpt": "Source-backed research context connecting SPIE micro-mirror lithography, OWL nano-scale 3D printing coverage, patent records, and current industrial AI automation work.",
+      "link": "3d-micro-mirror-lithography-mass-production",
+      "date": "2026-05-10"
     }
   },
   "contact": {
     "title": {
-      "main": "Get in touch.",
-      "sub": "Let's discuss your project."
+      "main": "Email Old World Labs.",
+      "sub": "Tell us what you want to automate."
     },
     "form": {
       "name": "Your name",
@@ -389,118 +428,128 @@
       "email": "Your email",
       "subject": "Subject",
       "message": "Your message (optional)",
-      "submit": "Send message",
+      "submit": "Email info@oldworldlabs.com",
       "success": "Message sent successfully!",
       "error": "Failed to send message. Please try again.",
-      "sending": "Sending..."
+      "sending": "Sending...",
+      "title": "Start with a direct email",
+      "description": "Use direct email for project inquiries so we can review your goals, constraints, and timeline without relying on a web form.",
+      "emailLabel": "Primary contact",
+      "subjectHint": "Suggested subject: Project inquiry: AI automation",
+      "detailsTitle": "Helpful context to include",
+      "details": [
+        "What process, machine, workflow, or system you want to automate",
+        "Current hardware, software, data sources, and integration constraints",
+        "Timeline, security requirements, and what a successful first milestone looks like"
+      ]
     },
     "faq": {
       "title": "Frequently Asked Questions",
       "items": [
         {
-          "question": "What materials can you work with?",
-          "answer": "Our equipment can process most materials including high-temperature materials for molding, durable materials for basic engineering, biocompatible materials, and custom advanced art materials."
+          "question": "What kinds of automation projects do you handle?",
+          "answer": "We work across hardware and software environments: robotics, sensors, lab systems, industrial workflows, AI agents, dashboards, simulations, and custom integrations."
         },
         {
-          "question": "What are your tolerancing capabilities?",
-          "answer": "We handle various precision requirements. For example, a 10-micron inner diameter microfluidic channel is different than a 10-micron surface finish. Please detail your specific requirements in your message."
+          "question": "Can you work with existing equipment and software?",
+          "answer": "Yes. Many projects start by connecting existing machines, data sources, internal tools, and operator workflows before adding new hardware or software."
+        },
+        {
+          "question": "Do you still support precision manufacturing and 3D printing?",
+          "answer": "Yes. OWL precision manufacturing background remains useful for prototypes, fixtures, microfluidics, advanced components, and automation systems that need physical parts."
         },
         {
           "question": "Do you handle secure file exchanges?",
-          "answer": "Yes, we support secure file exchanges including NDAs and physical drive transfers. Please mention your security requirements in your message."
+          "answer": "Yes. We can work with NDAs, secure file exchange requirements, and physical drive transfers when project sensitivity requires it."
         },
         {
-          "question": "What is your typical project timeline?",
-          "answer": "Project timelines vary based on complexity and requirements. Simple prototypes can be completed in 1-2 weeks, while complex systems may take several months. We'll provide a detailed timeline during initial consultation."
+          "question": "What is a typical first engagement?",
+          "answer": "Most projects begin with a focused discovery review of the current system, automation target, constraints, and a practical first milestone."
         },
         {
-          "question": "Do you offer consulting services?",
-          "answer": "Yes, we provide consulting services for advanced manufacturing, robotics integration, and digital twin development. Our team can help optimize your existing processes or design new solutions."
-        },
-        {
-          "question": "What industries do you serve?",
-          "answer": "We serve various sectors including biotech, healthcare, semiconductor manufacturing, aerospace, automotive, and research institutions. Each solution is tailored to industry-specific requirements."
+          "question": "Which industries do you serve?",
+          "answer": "We serve technical teams in manufacturing, laboratories, biotech, medical devices, semiconductor, aerospace, automotive, and research and development."
         }
       ]
     },
     "teaser": {
       "title": {
-        "main": "Let's collaborate.",
-        "sub": "Bring your ideas to life."
+        "main": "Let us automate the hard parts.",
+        "sub": "Hardware, software, robotics, and workflows."
       },
-      "description": "Whether you're looking to develop a new product, optimize your manufacturing process, or integrate advanced robotics, we're here to help. Our team combines expertise in precision manufacturing, robotics, and digital solutions to deliver results that exceed expectations.",
-      "cta": "Get in touch"
+      "description": "Bring us the process that wastes time, fails by hand, or needs intelligence across machines and software. We can help define, prototype, and deploy the automation path.",
+      "cta": "Email info@oldworldlabs.com"
     }
   },
   "services": {
     "title": {
-      "main": "Our Services",
-      "sub": "Advanced Manufacturing Solutions"
+      "main": "Industrial AI Automation Services",
+      "sub": "Hardware, software, robotics, and simulation"
     },
-    "description": "We combine cutting-edge technologies in additive manufacturing, robotics, and digital solutions to deliver comprehensive solutions for complex industrial challenges.",
+    "description": "Old World Labs designs automation systems for companies that need AI to operate across real equipment, software tools, data flows, simulations, and manufacturing constraints.",
     "hero": {
       "slides": {
         "first": {
-          "title": "Advanced Additive Solutions",
-          "subtitle": "Ultra-precise at micro scale."
+          "title": "Industrial AI Automation",
+          "subtitle": "Connect machines, data, agents, and operators."
         },
         "second": {
-          "title": "Robotics & Automation",
-          "subtitle": "Precision meets efficiency."
+          "title": "Robotics and Hardware Integration",
+          "subtitle": "Bring intelligent control into physical systems."
         },
         "third": {
-          "title": "Unreal Engine Development",
-          "subtitle": "Visualization reimagined."
+          "title": "Software Agents and Digital Twins",
+          "subtitle": "Automate workflows, simulations, and 3D environments."
         }
       }
     },
     "services": {
-      "viewCaseStudy": "View Case Study",
+      "viewCaseStudy": "Explore example",
       "additive": {
-        "title": "Advanced Additive Solutions",
-        "description": "Ultra-precise at micro scale.",
+        "title": "Industrial AI Automation",
+        "description": "Connect machines, data, agents, and operators.",
         "features": [
-          "3D Printing as a Service",
-          "Industrial-Scale Printers",
-          "Customized printing solutions",
-          "High-volume production",
-          "Precision and quality assurance"
+          "AI automation strategy and system design",
+          "Machine, sensor, and workflow integration",
+          "Operator dashboards and decision support",
+          "Prototype-to-pilot implementation",
+          "Precision manufacturing support when hardware is needed"
         ],
         "caseStudy": {
-          "title": "Coming Soon",
-          "description": "Our advanced manufacturing case studies are currently in development.",
-          "link": "/case-studies/advanced-manufacturing"
+          "title": "Project Discovery",
+          "description": "We map the process, constraints, available data, hardware interfaces, and first deployable automation milestone.",
+          "link": "/contact"
         }
       },
       "robotics": {
-        "title": "Robotics & Automation",
-        "description": "Precision meets efficiency.",
+        "title": "Robotics and Hardware Integration",
+        "description": "Bring intelligent control into physical systems.",
         "features": [
           "Custom robotics development",
           "AI-driven control systems",
           "Vision-guided automation",
-          "Process optimization",
-          "Safety and compliance"
+          "Hardware/software integration",
+          "Safety-aware process design"
         ],
         "caseStudy": {
-          "title": "Replicants Integration",
-          "description": "Seamless integration of AI agents with humanoid robots and virtual environments through the revolutionary Replicants system.",
-          "link": "https://www.replicants.com"
+          "title": "Robotics Integration",
+          "description": "AI agents and robotics can coordinate physical tasks while staying connected to software systems, operators, and digital environments.",
+          "link": "https://www.oldworldlabs.com/en/contact"
         }
       },
       "digital": {
-        "title": "Unreal Engine Development",
-        "description": "Visualization reimagined.",
+        "title": "Software Agents and Digital Twins",
+        "description": "Automate workflows, simulations, and 3D environments.",
         "features": [
-          "Modeling and Simulation",
-          "Immersive 3D environments",
-          "Unreal Engine 5 integration",
-          "Design enhancement",
-          "Testing process optimization"
+          "Software workflow automation",
+          "AI agents for internal operations",
+          "Digital twins and simulation environments",
+          "Unreal Engine and 3D visualization",
+          "Testing and deployment workflows"
         ],
         "caseStudy": {
-          "title": "Abyss Online",
-          "description": "A rich, community-driven game environment utilizing advanced Unreal Engine 5 features for immersive world-building and visualization.",
+          "title": "Simulation and Digital Operations",
+          "description": "OWL uses 3D environments and software agents to model, test, and automate complex systems before and after deployment.",
           "link": "https://www.abyssonline.com"
         }
       }
